@@ -1,0 +1,575 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Projektverwaltung &mdash; Cabara 1.0 Dokumentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Stichwortverzeichnis"
+              href="../genindex.html"/>
+        <link rel="search" title="Suche" href="../search.html"/>
+    <link rel="top" title="Cabara 1.0 Dokumentation" href="../index.html"/>
+        <link rel="up" title="Verwaltung" href="index.html"/>
+        <link rel="next" title="Zuständigkeiten" href="zustaendigkeiten.html"/>
+        <link rel="prev" title="Verwaltung" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Cabara
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Dokumentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../dateneingabe/index.html">Dateneingabe</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Verwaltung</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Projektverwaltung</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#masznahmennummer">Maßnahmennummer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#masznahmenbezeichnung">Maßnahmenbezeichnung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interne-bezeichnung">Interne Bezeichnung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#grabungserlaubnis">Grabungserlaubnis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ausstellende-behorde">Ausstellende Behörde</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#aktenzeichen">Aktenzeichen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#datum">Datum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#grundeigentumer">Grundeigentümer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#grundeigentumer-e-mail">Grundeigentümer E-Mail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#zustandige-behorde">Zuständige Behörde</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ergebnis">Ergebnis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#wichtige-informationen">Wichtige Informationen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#klon-hash">Klon Hash</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#historie">Historie</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#landkreis">Landkreis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#landkreis-fundliste">Landkreis Fundliste</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gemeinde">Gemeinde</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gemarkung">Gemarkung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flachen">Flächen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#max-hochwert">Max. Hochwert</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#max-rechtswert">Max. Rechtswert</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flachengrosze">Flächengröße</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flurstucknummer">Flurstücknummer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flurname">Flurname</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fundverbleib">Fundverbleib</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fundzettelnummer-beginn">Fundzettelnummer Beginn</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#grabungsleiter">Grabungsleiter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#original">Original</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#doku-assistent">Doku Assistent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Original</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fund-assistent">Fund Assistent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Original</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#oberbodenabtrag">Oberbodenabtrag</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Maßnahmennummer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#kurztitel">Kurztitel</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#arbeitstage">Arbeitstage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#oberbodenabtrag-von">Oberbodenabtrag Von</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#oberbodenabtrag-bis">Oberbodenabtrag Bis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fachaufsicht">Fachaufsicht</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#erlaubnisbescheid">Erlaubnisbescheid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#baufirma">Baufirma</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#eingesetzte-gerate">Eingesetzte Geräte</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#abtragsflache">Abtragsfläche</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#weiterer-abtrag">Weiterer Abtrag</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#anstehender-boden">Anstehender Boden</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#anlass">1. Anlass</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#durchfuhrung">2. Durchführung</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#witterung">3. Witterung</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bodenbeschaffenheit">4. Bodenbeschaffenheit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">5. Ergebnis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sonstiges">6. Sonstiges</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#aufmass">Aufmass</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#befund-gekennzeichnet">Befund gekennzeichnet</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#funde-aufgenommen">Funde aufgenommen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ausgrabung-notwendig">Ausgrabung notwendig</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#anhang">Anhang</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#anhang-sonstiges">Anhang Sonstiges</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#verfasser">Verfasser</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">Datum</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#konservatorische-uberdeckung">Konservatorische Überdeckung</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id6">Maßnahmennummer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bezeichnung-bauvorhaben">Bezeichnung Bauvorhaben</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#durchfuhrender-archaologe">Durchführender Archäologe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#konservatorische-uberdeckung-von">Konservatorische Überdeckung Von</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#konservatorische-uberdeckung-bis">Konservatorische Überdeckung Bis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Erlaubnisbescheid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#durchfuehrung">1. Durchfuehrung</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fotoliste">2. Fotoliste</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">3. Sonstiges</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#uberdeckungsflaeche">Überdeckungsflaeche</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#begrundung">Begründung</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#flache-tachymetrisch-aufgenommen">Fläche tachymetrisch aufgenommen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">Befund Gekennzeichnet</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#umplanung-vorgeschlagen">Umplanung vorgeschlagen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#denkmalfachliche-leistungsbeschreibung-des-blfd-erwunscht">Denkmalfachliche Leistungsbeschreibung des BLfD erwünscht</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bemerkung">Bemerkung</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#freigabe">Freigabe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Anhang</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Anhang Sonstiges</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">Verfasser</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id13">Datum</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="zustaendigkeiten.html">Zuständigkeiten</a></li>
+<li class="toctree-l2"><a class="reference internal" href="verwaltung.html">Verwaltung</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dokumente.html">Dokumente</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tools.html">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wissenschaftlich.html">Wissenschaftlich</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../old/index.html">Alt</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Cabara</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Verwaltung</a> &raquo;</li>
+        
+      <li>Projektverwaltung</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/verwaltung/projekt.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="projektverwaltung">
+<h1>Projektverwaltung<a class="headerlink" href="#projektverwaltung" title="Link zu dieser Überschrift">¶</a></h1>
+<div class="section" id="masznahmennummer">
+<span id="projektmasnahmennummer"></span><h2>Maßnahmennummer<a class="headerlink" href="#masznahmennummer" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="masznahmenbezeichnung">
+<h2>Maßnahmenbezeichnung<a class="headerlink" href="#masznahmenbezeichnung" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="interne-bezeichnung">
+<h2>Interne Bezeichnung<a class="headerlink" href="#interne-bezeichnung" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="grabungserlaubnis">
+<h2>Grabungserlaubnis<a class="headerlink" href="#grabungserlaubnis" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="ausstellende-behorde">
+<h2>Ausstellende Behörde<a class="headerlink" href="#ausstellende-behorde" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="aktenzeichen">
+<h2>Aktenzeichen<a class="headerlink" href="#aktenzeichen" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="datum">
+<h2>Datum<a class="headerlink" href="#datum" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="grundeigentumer">
+<h2>Grundeigentümer<a class="headerlink" href="#grundeigentumer" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="grundeigentumer-e-mail">
+<h2>Grundeigentümer E-Mail<a class="headerlink" href="#grundeigentumer-e-mail" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="zustandige-behorde">
+<h2>Zuständige Behörde<a class="headerlink" href="#zustandige-behorde" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="ergebnis">
+<h2>Ergebnis<a class="headerlink" href="#ergebnis" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="wichtige-informationen">
+<h2>Wichtige Informationen<a class="headerlink" href="#wichtige-informationen" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="klon-hash">
+<h2>Klon Hash<a class="headerlink" href="#klon-hash" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="historie">
+<h2>Historie<a class="headerlink" href="#historie" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="landkreis">
+<h2>Landkreis<a class="headerlink" href="#landkreis" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="landkreis-fundliste">
+<h2>Landkreis Fundliste<a class="headerlink" href="#landkreis-fundliste" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="gemeinde">
+<h2>Gemeinde<a class="headerlink" href="#gemeinde" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="gemarkung">
+<h2>Gemarkung<a class="headerlink" href="#gemarkung" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="flachen">
+<h2>Flächen<a class="headerlink" href="#flachen" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="max-hochwert">
+<h2>Max. Hochwert<a class="headerlink" href="#max-hochwert" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="max-rechtswert">
+<h2>Max. Rechtswert<a class="headerlink" href="#max-rechtswert" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="flachengrosze">
+<h2>Flächengröße<a class="headerlink" href="#flachengrosze" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="flurstucknummer">
+<h2>Flurstücknummer<a class="headerlink" href="#flurstucknummer" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="flurname">
+<h2>Flurname<a class="headerlink" href="#flurname" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="fundverbleib">
+<h2>Fundverbleib<a class="headerlink" href="#fundverbleib" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="fundzettelnummer-beginn">
+<h2>Fundzettelnummer Beginn<a class="headerlink" href="#fundzettelnummer-beginn" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="grabungsleiter">
+<h2>Grabungsleiter<a class="headerlink" href="#grabungsleiter" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="original">
+<h2>Original<a class="headerlink" href="#original" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="doku-assistent">
+<h2>Doku Assistent<a class="headerlink" href="#doku-assistent" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="id1">
+<h2>Original<a class="headerlink" href="#id1" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="fund-assistent">
+<h2>Fund Assistent<a class="headerlink" href="#fund-assistent" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="id2">
+<h2>Original<a class="headerlink" href="#id2" title="Link zu dieser Überschrift">¶</a></h2>
+</div>
+<div class="section" id="oberbodenabtrag">
+<h2>Oberbodenabtrag<a class="headerlink" href="#oberbodenabtrag" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="section" id="id3">
+<h3>Maßnahmennummer<a class="headerlink" href="#id3" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="kurztitel">
+<h3>Kurztitel<a class="headerlink" href="#kurztitel" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="arbeitstage">
+<h3>Arbeitstage<a class="headerlink" href="#arbeitstage" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="oberbodenabtrag-von">
+<h3>Oberbodenabtrag Von<a class="headerlink" href="#oberbodenabtrag-von" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="oberbodenabtrag-bis">
+<h3>Oberbodenabtrag Bis<a class="headerlink" href="#oberbodenabtrag-bis" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="fachaufsicht">
+<h3>Fachaufsicht<a class="headerlink" href="#fachaufsicht" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="erlaubnisbescheid">
+<h3>Erlaubnisbescheid<a class="headerlink" href="#erlaubnisbescheid" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="baufirma">
+<h3>Baufirma<a class="headerlink" href="#baufirma" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="eingesetzte-gerate">
+<h3>Eingesetzte Geräte<a class="headerlink" href="#eingesetzte-gerate" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="abtragsflache">
+<h3>Abtragsfläche<a class="headerlink" href="#abtragsflache" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="weiterer-abtrag">
+<h3>Weiterer Abtrag<a class="headerlink" href="#weiterer-abtrag" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="anstehender-boden">
+<h3>Anstehender Boden<a class="headerlink" href="#anstehender-boden" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="anlass">
+<h3>1. Anlass<a class="headerlink" href="#anlass" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="durchfuhrung">
+<h3>2. Durchführung<a class="headerlink" href="#durchfuhrung" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="witterung">
+<h3>3. Witterung<a class="headerlink" href="#witterung" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="bodenbeschaffenheit">
+<h3>4. Bodenbeschaffenheit<a class="headerlink" href="#bodenbeschaffenheit" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="id4">
+<h3>5. Ergebnis<a class="headerlink" href="#id4" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="sonstiges">
+<h3>6. Sonstiges<a class="headerlink" href="#sonstiges" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="aufmass">
+<h3>Aufmass<a class="headerlink" href="#aufmass" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="befund-gekennzeichnet">
+<h3>Befund gekennzeichnet<a class="headerlink" href="#befund-gekennzeichnet" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="funde-aufgenommen">
+<h3>Funde aufgenommen<a class="headerlink" href="#funde-aufgenommen" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="ausgrabung-notwendig">
+<h3>Ausgrabung notwendig<a class="headerlink" href="#ausgrabung-notwendig" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="anhang">
+<h3>Anhang<a class="headerlink" href="#anhang" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="anhang-sonstiges">
+<h3>Anhang Sonstiges<a class="headerlink" href="#anhang-sonstiges" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="verfasser">
+<h3>Verfasser<a class="headerlink" href="#verfasser" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="id5">
+<h3>Datum<a class="headerlink" href="#id5" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+</div>
+<div class="section" id="konservatorische-uberdeckung">
+<h2>Konservatorische Überdeckung<a class="headerlink" href="#konservatorische-uberdeckung" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="section" id="id6">
+<h3>Maßnahmennummer<a class="headerlink" href="#id6" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="bezeichnung-bauvorhaben">
+<h3>Bezeichnung Bauvorhaben<a class="headerlink" href="#bezeichnung-bauvorhaben" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="durchfuhrender-archaologe">
+<h3>Durchführender Archäologe<a class="headerlink" href="#durchfuhrender-archaologe" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="konservatorische-uberdeckung-von">
+<h3>Konservatorische Überdeckung Von<a class="headerlink" href="#konservatorische-uberdeckung-von" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="konservatorische-uberdeckung-bis">
+<h3>Konservatorische Überdeckung Bis<a class="headerlink" href="#konservatorische-uberdeckung-bis" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="id7">
+<h3>Erlaubnisbescheid<a class="headerlink" href="#id7" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="durchfuehrung">
+<h3>1. Durchfuehrung<a class="headerlink" href="#durchfuehrung" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="fotoliste">
+<h3>2. Fotoliste<a class="headerlink" href="#fotoliste" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="id8">
+<h3>3. Sonstiges<a class="headerlink" href="#id8" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="uberdeckungsflaeche">
+<h3>Überdeckungsflaeche<a class="headerlink" href="#uberdeckungsflaeche" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="begrundung">
+<h3>Begründung<a class="headerlink" href="#begrundung" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="flache-tachymetrisch-aufgenommen">
+<h3>Fläche tachymetrisch aufgenommen<a class="headerlink" href="#flache-tachymetrisch-aufgenommen" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="id9">
+<h3>Befund Gekennzeichnet<a class="headerlink" href="#id9" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="umplanung-vorgeschlagen">
+<h3>Umplanung vorgeschlagen<a class="headerlink" href="#umplanung-vorgeschlagen" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="denkmalfachliche-leistungsbeschreibung-des-blfd-erwunscht">
+<h3>Denkmalfachliche Leistungsbeschreibung des BLfD erwünscht<a class="headerlink" href="#denkmalfachliche-leistungsbeschreibung-des-blfd-erwunscht" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="bemerkung">
+<h3>Bemerkung<a class="headerlink" href="#bemerkung" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="freigabe">
+<h3>Freigabe<a class="headerlink" href="#freigabe" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="id10">
+<h3>Anhang<a class="headerlink" href="#id10" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="id11">
+<h3>Anhang Sonstiges<a class="headerlink" href="#id11" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="id12">
+<h3>Verfasser<a class="headerlink" href="#id12" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+<div class="section" id="id13">
+<h3>Datum<a class="headerlink" href="#id13" title="Link zu dieser Überschrift">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="zustaendigkeiten.html" class="btn btn-neutral float-right" title="Zuständigkeiten" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Verwaltung" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Markus Schmid.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
