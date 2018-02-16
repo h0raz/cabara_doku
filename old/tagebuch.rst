@@ -1,10 +1,10 @@
-====================================
+****************
 Tagebuch
-====================================
+****************
 
 
 Arbeitstag
-**********************************************
+=======================================
 
 
 Auswahlfeld des Datums der Tagebuchseite. Zusätzlich um Datum der Tagebuchseite wird die Kalenderwoche angezeigt. Das Datum ist ein Pflichtfeld.
@@ -12,7 +12,7 @@ Auswahlfeld des Datums der Tagebuchseite. Zusätzlich um Datum der Tagebuchseite
 
 
 Projekt
-**********************************************
+=======================================
 
 
 Anzeige der Bezeichnung des aktuellen Projekts. In diesem Feld ist das Projekt, dem die jeweilige Tagebuchseite zugeordnet ist angegeben. Es handelt sich um ein reines Anzeigefeld, es können demnach keine Veränderungen daran vorgenommen werden.
@@ -20,7 +20,7 @@ Anzeige der Bezeichnung des aktuellen Projekts. In diesem Feld ist das Projekt, 
 
 
 Tageshöhe
-**********************************************
+=======================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -29,7 +29,7 @@ Angabe Gerätehöhe des Vermessungsgerätes am jeweiligen Tag. Diese Angabe dien
 
 
 Wetter angegeben
-**********************************************
+=======================================
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -38,7 +38,7 @@ Beschreibung des Wetters am jeweiligen Arbeitstag. In diesem Freitextfeld könne
 
 
 Temperatur
-**********************************************
+=======================================
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -47,7 +47,7 @@ Beschreibung der Temperatur am jeweiligen Arbeitstag. Es ist ausreichend, in die
 
 
 Grabungsleiter
-**********************************************
+=======================================
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 .. note:: Diese Auswahl wird über das Projekt befüllt
@@ -60,7 +60,7 @@ Ist in der Projektverwaltung unter 'Organisation' der Name des Grabungsleiters v
 
 
 Sonstiges/Besuche
-**********************************************
+=======================================
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -69,7 +69,7 @@ Angaben zu besonderen Ereignissen am jeweiligen Arbeitstag. In diesem Freitextfe
 
 
 Arbeiten
-**********************************************
+=======================================
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -78,7 +78,7 @@ Angaben zum Verlauf der Grabungsarbeiten am jeweiligen Arbeitstag. In diesem Fre
 
 
 Eingemessen
-**********************************************
+=======================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -89,7 +89,7 @@ Nach Vorgaben des BLfD müssen alle Befundkonturen und Profillinien mit ihrer Be
 
 
 Planum fotografiert
-**********************************************
+=======================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -100,7 +100,7 @@ Es wird nur der bearbeitete Befund, nicht aber die exakte Planumsbezeichnung ang
 
 
 Planum gezeichnet
-**********************************************
+=======================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -111,7 +111,7 @@ Es wird nur der bearbeitete Befund, nicht aber die exakte Profilbezeichnung ange
 
 
 Geschnitten
-**********************************************
+=======================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -122,7 +122,7 @@ Es wird nur der bearbeitete Befund, nicht aber die exakte Planums- oder Profilbe
 
 
 Profil fotografiert
-**********************************************
+=======================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -133,7 +133,7 @@ Es wird nur der bearbeitete Befund, nicht aber die exakte Profilbezeichnung ange
 
 
 Profil gezeichnet
-**********************************************
+=======================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -144,7 +144,7 @@ Es wird nur der bearbeitete Befund, nicht aber die exakte Profilbezeichnung ange
 
 
 Dokumentiert
-**********************************************
+=======================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -156,7 +156,7 @@ Nach Richtlinien des BLfD ist diese Angabe nicht gefordert, da das 'Dokumentiert
 
 
 Ausgenommen
-**********************************************
+=======================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -166,7 +166,7 @@ Die hier zur Auswahl stehenden Befunde müssen zuvor im Befundbuch angelegt werd
 
 
 Ausstehende Informationen
-**********************************************
+=======================================
 
 
 Hinterlegung von noch ausstehenden/fehlenden Daten. Dieses Feld dient dazu festzuhalten, welche Daten/Informationen zum Abschluss der Tagebuchseite noch fehlen. Beispiele hierfür wären z.B. 'Name des Besuchers fehlt', 'Temperatur unklar', etc. Da es sich um ein Freitextfeld handelt können auch Anweisungen für das weiter Vorgehen, z.B. 'Recherchieren des Firmennames des Baggerunternehmens' etc. hinterlegt werden. Wenn in dieser Feld etwas eingetragen ist, wird die Tagebuchseite in der Liste rot hinterlegt. Es ist möglich, nach noch zu bearbeitenden Tagebuchsein, d.h. Tagebuchseiten mit Eintragungen im Feld 'Ausstehende Informationen', zu filtern.

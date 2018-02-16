@@ -1,19 +1,9 @@
-====================================
+****************
 Befund
-====================================
-
-Beimengung
-==============================================
-.. note:: Diese Auswahl wird über die Verwaltung befüllt
-.. note:: Dieses Feld ist optional zu befüllen
-
-
-Angabe von Beimengungen der Verfüllung. Die in dieser Spalte befindlichen Auswahlmöglichkeiten werden in der Verwaltung angelegt und können individuell erweitert und angepasst werden. Eine Mehrfachauswahl ist möglich. Unter Beimengungen werden v.a. durch menschlichen Einfluss herbeigeführte, zusätzliche Einbringungen in die Verfüllung wie z.B. Holzkohle, verziegelter Ton etc. verstanden.
-
-.. todo:: Bitte unter 'anlegen Verfüllung' schieben
+****************
 
 Projekt
-**********************************************
+====================================================
 
 
 Bezeichnung des aktuellen Projekts. In diesem Feld ist das Projekt, dem der jeweilige Befund zugeordnet ist angegeben. Es handelt sich um ein reines Anzeigefeld, es können demnach keine Veränderungen daran vorgenommen werden.
@@ -21,7 +11,7 @@ Bezeichnung des aktuellen Projekts. In diesem Feld ist das Projekt, dem der jewe
 
 
 Befundnummer (Bef.-Nr.)
-**********************************************
+====================================================
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -30,7 +20,7 @@ Befundnummer bzw. Nummerierung der zu dokumentierenden Einheit/Struktur. Nach de
 .. todo:: > Abkürzung spart in Übersicht (Liste) Platz [Bettina]
 
 Ansprache
-**********************************************
+====================================================
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
@@ -40,7 +30,7 @@ Bezeichnung der zu dokumentierenden Einheit/Struktur. Hierbei handelt es sich um
 
 
 Planum
-**********************************************
+====================================================
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -51,7 +41,7 @@ Ist ein Planum <span class="btn btn-success">grün</span> hinterlegt, so handelt
 
 
 Planumsbezeichnung
-**********************************************
+-------------------------
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -60,7 +50,7 @@ Bezeichnung/Nummer des Planums. In dieses Freitextfeld muss zwingend die Ziffer 
 
 
 Zusatz
-==============================================
+------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 .. note:: Dieses Feld ist optional zu befüllen
@@ -71,7 +61,7 @@ Ergänzende Angaben zur Form des Befundes im Planum. Die in dieser Spalte befind
 .. todo:: warum eigentlich?
 
 Form
-==============================================
+------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Dieses Feld ist optional zu befüllen
 
@@ -79,18 +69,8 @@ Form
 Form des Befundes im Planum. Die in dieser Spalte befindlichen Auswahlmöglichkeiten werden in der Verwaltung angelegt und können individuell erweitert und angepasst werden. Es ist nur eine Auswahl möglich, die nach der Auswahl <span class="btn btn-success">grün</span> hinterlegt ist. Mögliche Formen sind z.B. 'oval', 'birnenförmig', 'rund' etc.
 
 
-
-Fläche auswählen
-**********************************************
-.. note:: Diese Auswahl wird über das Projekt befüllt
-
-
-Angabe der Fläche auf welcher der Befund liegt. Die in dieser Zeile befindlichen Auswahlmöglichkeiten werden in den Projektdetails angelegt und können individuell erweitert und angepasst werden. Ist nur eine Fläche angelegt, so wird diese automatisch ausgewählt und hinzugefügt. Ist mehr als eine Fläche vorhanden, so muss diese für jeden Befund individuell ausgewählt und hinzugefügt werden. Ist die Fläche hinzugefügt und noch nicht gespeichert erscheint sie <span class="btn btn-success">grün</span>. Durch Anwählen der <span class="btn btn-success">grün</span> hinterlegten Fläche wird diese mit sofortiger Wirkung gelöscht. Wurde zuvor gespeichert kann die Fläche durch Anwählen als bei der nächsten Speicherung zu löschendes Element markiert werden. Es erscheint dann <span class="btn btn-danger">rot</span>
-
-.. todo:: Bitte an die richtige Stelle schieben
-
 L. max.
-==============================================
+--------------------------------------
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -99,7 +79,7 @@ Maximale Länge des Befundes im Planum. Die maximale Länge ist bei allen nicht 
 
 
 Br. max.
-==============================================
+--------------------------------------
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -108,7 +88,7 @@ Maximale Breite des Befundes im Planum. Die maximale Breite ist bei allen nicht 
 
 
 Dm. max.
-==============================================
+--------------------------------------
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -117,7 +97,7 @@ Maximaler Durchmesser des Befundes im Planum. Der maximale Durchmesser kann nur 
 
 
 Noch
-==============================================
+--------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -126,7 +106,7 @@ Schaltfläche zum Ändern der Maße auf Maximale- oder Noch-Werte. Wurde ein Bef
 
 
 Freitext
-==============================================
+--------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -135,7 +115,7 @@ Freitextfeld zur (ergänzenden) Beschreibung. Wird der Haken bei 'Freitext' gese
 .. todo:: Kann auch für Profilfreitext verwendet werden
 
 Teil
-==============================================
+--------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -145,7 +125,7 @@ Auswahlmöglichkeit um einen Datensatz für den Export des Befundbuches zu sperr
     Text kann auch für Profil verwendet werden
 
 Grabbau
-==============================================
+--------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -154,7 +134,7 @@ Freitextfeld für Angaben zum Grabbau. Dieses Freitextfeld erscheint nur, wenn e
 
 
 Menschliche Knochen
-==============================================
+--------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -163,7 +143,7 @@ Freitextfeld für Angaben zu menschlichen Knochen. Dieses Freitextfeld erscheint
 
 
 Fundlage
-**********************************************
+--------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -172,7 +152,7 @@ Freitextfeld zur Beschreibung der Lage der Funde in einem Befund. Für aufwändi
 .. todo:: Kann gelöscht werden weil nicht mehr im Planum vorhanden
 
 Profil
-**********************************************
+====================================================
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -191,7 +171,7 @@ Bezeichnung/Nummer des Profils. In dieses Freitextfeld muss zwingend die Zifferf
 
 
 Zusatz
-==============================================
+------------------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Dieses Feld ist optional zu befüllen
 
@@ -201,7 +181,7 @@ Ergänzende Angaben zur Form des Befundes im Profil. Die in dieser Spalte befind
 .. todo:: warum eigentlich?
 
 Form
-==============================================
+------------------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
@@ -211,7 +191,7 @@ Form des Befundes im Profil. Die in dieser Spalte befindlichen Auswahlmöglichke
 
 
 Besonderheiten
-==============================================
+------------------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Dieses Feld ist optional zu befüllen
 
@@ -221,7 +201,7 @@ Besonderheiten der Form des Befundes im Profil. Die in dieser Spalte befindliche
 
 
 T. max.
-==============================================
+------------------------------------
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -230,7 +210,7 @@ Maximale Tiefe des Befundes im Profil. Es handelt sich um ein Freitextfeld in de
 
 
 L. max. OK
-==============================================
+------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -239,7 +219,7 @@ Maximale Länge des Befundes an der Oberkante des Profils. Nach den Vorgaben des
 
 
 Noch
-==============================================
+------------------------------------
 
 
 Schaltfläche zum Ändern der Maße auf Maximale- oder Noch-Werte. Wurde ein Befund nicht komplett ergaben, z.B. durch Lage in der Grabungsgrenze, oder ist seine Abgrenzung zu einem anderen Befund im Planum nicht eindeutig, so kann durch Auswahl der Schaltfläche 'Noch' betont werden, dass es sich bei der hinterlegten Zentimeterangabe um nicht um die maximale Ausdehung des Befundes handelt. Diese Auswahl ist sowohl für Länge, Breite als auch Durchmesser individuell möglich. Wird 'Noch' ausgewählt, so ändert sich die Bezeichung z.B. der Länge 'L. max.' in 'L. noch', die Schaltfläche 'Noch' wechselt zu 'Max.'. So ist es möglich, sollte der Befund doch vollständig ergraben oder eine Abgrenzung zu einem anderen Befund eindeutig werden, wieder zur Angabe von Maximalwerten zu wechseln.
@@ -247,7 +227,7 @@ Schaltfläche zum Ändern der Maße auf Maximale- oder Noch-Werte. Wurde ein Bef
 .. todo:: Können wir löschen und direkt mit BefundPlanumNoch verknüpfen
 
 Stufe
-==============================================
+------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -275,7 +255,7 @@ Angabe der Tiefe der Stufe im Profil eines Befundes. Es handelt sich um ein Frei
 
 
 Freitext
-==============================================
+------------------------------------
 
 
 Freitextfeld zur (ergänzenden) Beschreibung des Profils. Wird der Haken bei 'Freitext' gesetzt, so erscheint ein Freitextfeld in welchem sämtliche weiteren benötigten Angaben hinterlegt werden können, die nicht durch die zuvor angegebenen Daten oder Auswahlmöglichkeiten abgedeckt sind. Es ist auch möglich, die komplette Beschreibung des jeweiligen Planums in diesem Feld durchzuführen. Wurden zuvor Daten durch Auswahlfeldern oder Datenfeldern eingegeben, so werden die Informationen des Freitextfelds durch ein Komma getrennt an diese angehängt. Eine mögliche Beschreibung wäre demnach z.B. 'Unregelmäßig [Zusatz] wannenförmig [Form] mit waagrechter Sohle [Besonderheit], T. max. 24 cm [T. max.], im SO getreppt, T. max. Stufe 12 cm [Stufe], stark durchwurzelt [Freitext]'.
@@ -283,7 +263,7 @@ Freitextfeld zur (ergänzenden) Beschreibung des Profils. Wird der Haken bei 'Fr
 .. todo:: Kann direkt auf BefundPlanumFreitext verknüpft werden
 
 Teil
-==============================================
+------------------------------------
 
 
 Auswahlmöglichkeit um ein Profil für den Export des Befundbuches zu sperren. Wenn ein Profil nur für eine Fundzuweisung oder ein Foto, z.B. ein Arbeitsfoto oder als Teilprofil verwendet wurde, aber keine eigene Profilbeschreibung benötigt, so kann durch diese Auswahlmöglichkeit verhindert werden, dass das jeweilige Profil im Export des Befundbuches erscheint. Die Verknüpfungen innerhalb der Datenbank bleiben hierbei bestehen. D. h. ein Teilprofil E-D dem ein Foto oder ein Fund zugewiesen wurde erscheint nicht im Export der Befundbeschreibung, auch wenn es in der Datenbank intern weiterhin sichtbar und verwendbar ist. Die Fotonummern bzw. Fundnummern von Teilprofil E-D sind mit dem zugehörigen Befund verknüpft und erscheint deshalb bei diesem sowohl in der Datenbank als auch in den Exporten.
@@ -291,7 +271,7 @@ Auswahlmöglichkeit um ein Profil für den Export des Befundbuches zu sperren. W
 .. todo:: Kann direkt auf BefundPlanumTeil mit verknüpft werden
 
 Blick von
-==============================================
+------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -300,7 +280,7 @@ Auswahlmöglichkeit zur Angabe der Blickrichtung des Profils. In diesem Auwahlfe
 
 
 Schnittverlauf
-**********************************************
+------------------------------------
 
 
 Angabe des Schittverlaufes des Profils. Ist eine Blickrichtung ausgewählt, wird der zugehörige 'Schnitt' automatisch ausgefüllt.
@@ -308,7 +288,7 @@ Angabe des Schittverlaufes des Profils. Ist eine Blickrichtung ausgewählt, wird
 
 
 Mehrere Blickrichtungen angeben
-**********************************************
+------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -317,7 +297,7 @@ Möglichkeit, mehr als eine Blickrichtung auf des Profils anzugeben. Wird der Ha
 
 
 Blick von
-**********************************************
+------------------------------------
 
 
 Auswahlmöglichkeit zur Angabe der Blickrichtung des Profils. In diesem Auwahlfeld können nur Himmelsrichtungen ausgewählt werden, wobei der 'Blick von' diejenige Himmelsrichtung bezeichnet aus welcher der Befund betrachtet wird. Die hier angegebene Blickrichtung ist mit der Blickrichtung der zugehörigen Profilzeichnung identisch. Ist eine Blickrichtung ausgewählt, wird der zugehörige 'Schnitt' automatisch ausgefüllt.
@@ -325,7 +305,7 @@ Auswahlmöglichkeit zur Angabe der Blickrichtung des Profils. In diesem Auwahlfe
 .. todo:: Löschen und direkt auf mit erster Beschreibung verknüpfen
 
 Schnittverlauf
-**********************************************
+------------------------------------
 
 
 Angabe des Schittverlaufes des Profils. Ist eine Blickrichtung ausgewählt, wird der zugehörige 'Schnitt' automatisch ausgefüllt.
@@ -333,7 +313,7 @@ Angabe des Schittverlaufes des Profils. Ist eine Blickrichtung ausgewählt, wird
 .. todo:: Löschen und direkt auf mit erster Beschreibung verknüpfen
 
 Bezeichnung des Teilprofils
-==============================================
+------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -342,7 +322,7 @@ Bezeichnung/Nummer des Teilprofils. Wenn mehr als eine Blickrichtung angegeben w
 
 
 Verfüllung anlegen
-**********************************************
+====================================================
 
 
 Schaltfläche zur Anlage einer Verfüllungsbeschreibung. Die Verfüllungsbeschreibung öffentlich in einem Dropdown-Menu. Die zur Auswahl stehenden Textbausteine zu Farbe, Intensität, Teilsubstrat, Hauptsubstrat, Auffälligkeiten und Beimengung werden in der Verwaltung angelegt und können individuell erweitert und angepasst werden. Eine Mehrfachauswahl ist möglich. Lediglich das Hauptsubstrat ist auf eine Einfachauswahl beschränkt. Die ausgewählten Datensätze erscheinen unterhalb der Beimengung als navigierbare Auswahl. Sie können durch Anwählen der Pfeile in ihrer Position verschoben, durch Anwählen des 'X' gelöscht werden.
@@ -352,7 +332,7 @@ Ist eine Verfüllungsbeschreibung anhand dieser Auswahlmöglichkeiten nicht sinn
 Die im Dropdown-Menu erstellte Verfüllungsbeschreibung erscheint als Text in der Befundansicht. Durch Anklicken dieses Textes kann er direkt bearbeitet werden
 
 Mehrere Verfüllungen anlegen
-**********************************************
+====================================================
 
 
 Schaltfläche zur Anlage mehr als einer Verfüllungsbeschreibung. Finden sich in einem Befund mehrere Straten bzw. Schichten oder zur selben Struktur gehörige Einbauten wie Pfostengrube (1) und Kernverfärbung (2), so kann über die Auswahl dieser Schaltfläche mehr als eine Verfüllungsbeschreibung angelegt werden.
@@ -361,7 +341,7 @@ Schaltfläche zur Anlage mehr als einer Verfüllungsbeschreibung. Finden sich in
 .. todo:: Bitte Unterhalb 'Auffälligkeiten' einsortieren
 
 Position
-==============================================
+---------------------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -371,7 +351,7 @@ Ist die hier eingetragene Ziffer identisch mit jener im Freitextfeld 'Bezeichnun
 
 
 Bezeichnung der Struktur
-==============================================
+---------------------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -380,7 +360,7 @@ Bezeichnung der Struktur, deren Verfüllung beschrieben werden soll. In diesem F
 
 
 Farbe
-==============================================
+---------------------------------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
@@ -390,7 +370,7 @@ Angabe der Farbe der Verfüllung. Die in dieser Spalte befindlichen Auswahlmögl
 
 
 Intensität
-==============================================
+---------------------------------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Dieses Feld ist optional zu befüllen
 
@@ -400,7 +380,7 @@ Angabe der Intensität der Bestandteile der Verfüllung. Die in dieser Spalte be
 
 
 Teilsubstrat
-==============================================
+---------------------------------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Dieses Feld ist optional zu befüllen
 
@@ -410,17 +390,27 @@ Angabe der untergeordneten Bestandteile der Verfüllung. Die in dieser Spalte be
 
 
 Hauptsubstrat
-==============================================
+---------------------------------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
 Angabe des Hauptsubstrates der Verfüllung. Die in dieser Spalte befindlichen Auswahlmöglichkeiten werden in der Verwaltung angelegt und können individuell erweitert und angepasst werden. Es ist nur eine Auswahl möglich.
 
+Beimengung
+---------------------------------------------------
+.. note:: Diese Auswahl wird über die Verwaltung befüllt
+.. note:: Dieses Feld ist optional zu befüllen
+
+
+Angabe von Beimengungen der Verfüllung. Die in dieser Spalte befindlichen Auswahlmöglichkeiten werden in der Verwaltung angelegt und können individuell erweitert und angepasst werden. Eine Mehrfachauswahl ist möglich. Unter Beimengungen werden v.a. durch menschlichen Einfluss herbeigeführte, zusätzliche Einbringungen in die Verfüllung wie z.B. Holzkohle, verziegelter Ton etc. verstanden.
+
+.. todo:: Bitte unter 'anlegen Verfüllung' schieben
+
 
 
 Auffälligkeiten
-==============================================
+---------------------------------------------------
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Dieses Feld ist optional zu befüllen
 
@@ -430,7 +420,7 @@ Angabe von Auffälligkeiten der Verfüllung. Die in dieser Spalte befindlichen A
 
 
 Matrix
-==============================================
+---------------------------------------------------
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -439,15 +429,24 @@ Angabe des stratigrafischen Verhältnisses innerhalb einer Struktur. In diesem F
 .. todo:: Bitte unter 'Mehrere Verfüllungen anlegen' einordnen
 
 Weitere Anmerkungen
-**********************************************
+---------------------------------------------------
 
 
 Ergänzende Angaben zum Befund. In diesem Freitextfeld können weitere Angaben zum Befund gemacht werden. Beispiele hierfür wären z.B. Hinweise auf eine Interpretation, Schwierigkeiten bei der Dokumentation, Absprachen bezüglich des Befundes mit dem BLfD, der UD etc.
 
 
+Fläche auswählen
+====================================================
+.. note:: Diese Auswahl wird über das Projekt befüllt
+
+
+Angabe der Fläche auf welcher der Befund liegt. Die in dieser Zeile befindlichen Auswahlmöglichkeiten werden in den Projektdetails angelegt und können individuell erweitert und angepasst werden. Ist nur eine Fläche angelegt, so wird diese automatisch ausgewählt und hinzugefügt. Ist mehr als eine Fläche vorhanden, so muss diese für jeden Befund individuell ausgewählt und hinzugefügt werden. Ist die Fläche hinzugefügt und noch nicht gespeichert erscheint sie <span class="btn btn-success">grün</span>. Durch Anwählen der <span class="btn btn-success">grün</span> hinterlegten Fläche wird diese mit sofortiger Wirkung gelöscht. Wurde zuvor gespeichert kann die Fläche durch Anwählen als bei der nächsten Speicherung zu löschendes Element markiert werden. Es erscheint dann <span class="btn btn-danger">rot</span>
+
+.. todo:: Bitte an die richtige Stelle schieben
+
 
 Flurstücksnummern
-**********************************************
+====================================================
 .. note:: Diese Auswahl wird über das Projekt befüllt
 
 
@@ -456,7 +455,7 @@ Angabe der Flurstücksnummer auf welcher der Befund liegt. Die in dieser Zeile b
 
 
 Aktueller Befund geht in Befund XY über
-**********************************************
+====================================================
 
 
 Angabe wo der aktuelle Befund in einen anderen Befund ohne erkennbare Abgrenzung übergeht. Stoßen zwei Befunde aneinander, ohne dass eine eindeutige Trennung bzw. ein eindeutiges Schnittverhältnis sichtbar ist, so kann dies über diese Schaltfläche genauer angegeben werden. Ein Beispiel wären zwei Befunde die in Nord-Süd-Richtung nebeneinander liegen. Z.B. Befund 1 liegt hierbei im Norden, Befund 2 im Süden. Bei Auswahl der Schaltfläche 'Aktueller Befund geht in Befund XY über' öffnet sich im aktuellen Tab ein zweizeiliges Bearbeitungsmenu. In Zeile 1 ist der aktuell zu bearbeitende Befund (z.B. Befund 1) vorausgefüllt ebenso wie die Textbausteine 'geht im', 'ohne erkennbare Abgrenzung in Befund' und 'über'. Im Freitextfeld zwischen 'geht im' und 'ohne erkennbare Abgrenzung in Befund' wird die Himmelsrichtung in welcher der aktuell zu bearbeitende Befund in einen Anderen übergeht eingetragen. Im auf den Textbaustein 'ohne erkennbare Abgrenzung in Befund' folgenden Auswahlfeld wird der Befund (z.B. Befund 2), in welchen der aktuell zu bearbeitende Befund (z.B. Befund 1) übergeht ausgewählt. Ein Beispiel hierfür wäre z.B. für Befund 1 die Angabe 'Bef. 1 [Vorausgefüllt] geht im [Textbaustein] S [Freitextfeld] ohne erkennbare Abgrenzung in Befund [Textbaustein] 2 [Auswahlfeld] über [Textbaustein]'.
@@ -468,7 +467,7 @@ Ist ein Datensatz grün hinterlegt, so handelt es sich um einen gerade neu angel
 .. todo:: Anzeige sowohl im Menu als auch unter Cursor anpassen
 
 Aktueller Befund schneidet Befund XY
-**********************************************
+====================================================
 
 
 Angabe wo der aktuell zu bearbeitende Befund einen anderen Befund schneidet. Ist zwischen Befunden ein eindeutiges Schnittverhältnis sichtbar bei welchem der aktuell zu bearbeitende Befund einen anderen Befund schneidet, so kann dies über diese Schaltfläche genauer angegeben werden. Ein Beispiel wären zwei Befunde die in Nord-Süd-Richtung nebeneinander liegen. Z.B. Befund 1 liegt hierbei im Norden, Befund 2 im Süden. Bei Auswahl der Schaltfläche 'Aktueller Befund schneidet Befund XY' öffnet sich im aktuellen Tab ein zweizeiliges Bearbeitungsmenu. In Zeile 1 ist der aktuell zu bearbeitende Befund (z.B. Befund 1) vorausgefüllt ebenso wie die Textbausteine 'schneidet im' und 'Befund'. Im Freitextfeld zwischen 'schneidet im' und 'Befund' wird die Himmelsrichtung in welcher der aktuell zu bearbeitende Befund einen Anderen schneidet eingetragen. Im auf den Textbaustein 'Befund' folgenden Auswahlfeld wird der Befund (z.B. Befund 2), den der aktuell zu bearbeitende Befund (z.B. Befund 1) schneidet, ausgewählt. Ein Beispiel hierfür wäre z.B. für Befund 1 die Angabe 'Bef. 1 [Vorausgefüllt] schneidet im [Textbaustein] S [Freitextfeld] Befund [Textbaustein] 2 [Auswahlfeld]'. D.h. Befund 1 schneidet mit seinem südlichen Bereich Befund 2.
@@ -480,7 +479,7 @@ Ist ein Datensatz grün hinterlegt, so handelt es sich um einen gerade neu angel
 .. todo:: Anzeige sowohl im Menu als auch unter Cursor anpassen
 
 Aktueller Befund wird geschnitten von Befund XY
-*************************************************
+====================================================***
 
 
 Angabe wo der aktuell zu bearbeitende Befund von einem anderen Befund geschnitten wird. Ist zwischen Befunden ein eindeutiges Schnittverhältnis sichtbar bei welchem der aktuelle Befund geschnitten wird, so kann dies über diese Schaltfläche genauer angegeben werden. Ein Beispiel wären zwei Befunde die in Ost-West-Richtung nebeneinander liegen. Z.B. Befund 3 liegt hierbei im Westen, Befund 4 im Osten. Bei Auswahl der Schaltfläche 'Aktueller Befund wird geschnitten von Befund XY' öffnet sich im aktuellen Tab ein zweizeiliges Bearbeitungsmenu.
@@ -493,7 +492,7 @@ Ist ein Datensatz grün hinterlegt, so handelt es sich um einen gerade neu angel
 .. todo::  Bitte nur aktuellen Befund vorausfüllen, nicht Auswahlfeld auch mit aktuellem Befund vorausfüllen%lbr%Anzeige sowohl im Menu als auch unter Cursor anpassen
 
 Aktueller Befund liegt in Befund XY
-**********************************************
+====================================================
 
 
 Angabe wo in einem anderen Befund der aktuell zu bearbeitende Befund liegt. Liegt ein Befund in einem Anderen, ohne dass der Zusammenhang klar zu definieren oder eine eindeutige Himmelsrichtung angzugeben ist, so kann dies über diese Schaltfläche genauer angegeben werden. Ein Beispiel wäre ein mittig in einem Graben (Befund 1) liegender Pfosten (Befund 2) wobei für Letzteren zusäztlich unklar sein könnte, ob es sich um einen Einbau in den Graben, eine spätere Bauphase oder eine unabhängige Struktur handelt. Bei Auswahl der Schaltfläche 'Aktueller Befund liegt in Befund XY' öffnet sich im aktuellen Tab ein Bearbeitungsmenu. Hier ist der aktuell zu bearbeitende Befund (z.B. Befund 2) vorausgefüllt ebenso wie die Textbausteine 'liegt' und 'Befund'. Im Freitextfeld zwischen 'liegt' und 'Befund' kann die Lage genau angegeben werden, z.B. mittig, im Segment A-E-B, über etc. Im auf den Textbaustein 'Befund' folgenden Auswahlfeld wird der Befund (z.B. Befund 1), in welchem der aktuell zu bearbeitende Befund (z.B. Befund 2) liegt ausgewählt. Durch diese Verknüpfung erscheint dieselbe Information sowohl bei dem aktuell zu bearbeitenden Befund als auch bei dem Befund in dem er liegt. Ein Beispiel hierfür wäre z.B. bei Befund 2 eine die Angabe wie 'Bef. 2 [Vorausgefüllt] liegt [Textbaustein] mittig in [Freitextfeld] Bef. [Textbaustein] 1 [Auswahlfeld]. Bei Befund 1 erscheint diese Angabe identisch: Bef. 2 liegt mittig in Bef. 1.
@@ -504,7 +503,7 @@ Ist ein Datensatz grün hinterlegt, so handelt es sich um einen gerade neu angel
 .. todo:: Anzeige bei Cursor drüber halten anpassen, im Menu ist das Auswahlfeld nach oben verrutscht
 
 Befund XY liegt im aktuellen Befund
-**********************************************
+====================================================
 
 
 Angabe wo im aktuell zu bearbeitende Befund ein anderer Befund liegt. Liegt im aktuell zu bearbeitenden Befund ein anderer Befund ohne dass der Zusammenhang klar zu definieren oder eine eindeutige Himmelsrichtung angzugeben ist, so kann dies über diese Schaltfläche genauer angegeben werden. Ein Beispiel wäre ein mittig in einem Graben (Befund 1) liegender Pfosten (Befund 2) wobei für Letzteren zusäztlich unklar sein könnte, ob es sich um einen Einbau in den Graben, eine spätere Bauphase oder eine unabhängige Struktur handelt. Bei Auswahl der Schaltfläche 'Befund XY liegt im aktuellen Befund' öffnet sich im aktuellen Tab ein Bearbeitungsmenu. Hier ist der aktuell zu bearbeitende Befund (z.B. Befund 1) vorausgefüllt ebenso wie die Textbausteine 'liegt' und 'Befund'. Im Freitextfeld zwischen 'liegt' und 'Befund' kann die Lage genau angegeben werden, z.B. mittig, im Segment A-E-B, über etc. Im am Anfang stehenden Auswahlfeld 'Befund' wird der Befund (z.B. Befund 2), welcher in dem aktuell zu bearbeitende Befund (z.B. Befund 1) liegt ausgewählt. Durch diese Verknüpfung erscheint dieselbe Information sowohl bei dem aktuell zu bearbeitenden Befund als auch bei dem Befund in dem er liegt. Ein Beispiel hierfür wäre z.B. bei Befund 1 eine die Angabe wie 'Bef. 2 [Auswahlfeld] liegt [Textbaustein] mittig in [Freitextfeld] Bef. [Textbaustein] 1 [Vorausgefüllt]. Bei Befund 2 erscheint diese Angabe identisch: Bef. 2 liegt mittig in Bef. 1.
@@ -515,7 +514,7 @@ Ist ein Datensatz grün hinterlegt, so handelt es sich um einen gerade neu angel
 .. todo:: Anzeige bei Cursor drüber halten anpassen, im Menu ist das Auswahlfeld nach oben verrutscht
 
 Ausstehende Informationen
-**********************************************
+====================================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -524,7 +523,7 @@ Hinterlegung von noch zur Komplettierung der Befundbeschreibung ausstehenden/feh
 
 
 Dokumentationsdatum
-**********************************************
+====================================================
 .. note:: Dieses Feld ist optional zu befüllen
 .. note:: Diese Information wird im Tagebuch ausgefüllt
 
@@ -534,7 +533,7 @@ Anzeige des Dokumentationsdatums des Befundes. In dieser Zeile wird angezeigt an
 
 
 Bearbeiter
-**********************************************
+====================================================
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
@@ -544,7 +543,7 @@ Name des für die Dokumentation des jeweiligen Befundes Verantwortlichen. Nach d
 
 
 Konservatorisch überdeckt
-**********************************************
+====================================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -553,7 +552,7 @@ Angabe ob der Befund konservatorisch überdeckt wurde. Wird der Haken bei 'Konse
 
 
 Reicht in Grabungsgrenze
-**********************************************
+====================================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -562,7 +561,7 @@ Angabe ob der Befund in die Grabungsgrenze reicht bzw. in dieser liegt oder unte
 
 
 Nicht vollständig ergraben
-**********************************************
+====================================================
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 .. note:: Dieses Feld ist optional zu befüllen
 
@@ -572,7 +571,7 @@ Angabe, dass der Befund nicht bis zu seiner Endtiefe ergraben wurde. Wird der Ha
 
 
 Funde
-**********************************************
+====================================================
 
 
 Anzeige der dem Befund zugewiesenen Funde. Sind dem Befund Funde zugewiesen, so werden diese blau hinterlegt angezeigt. Sichtbar sind hier die Id. bzw. wenn abschließend vergeben, die endgültigen Fundnummern, die Materialgruppe (z.B. mineralisches Material, Knochen etc.), das Material (z.B. Eisen, Buntmetall, Keramik, Hüttenlehm etc.) des Funde sowie dessen Bezeichnung (z.B. 1 Nagel, 1 Münze, 1 WS, 1 Fragment etc.). Durch Anwählen der Schaltfläche 'Anzeigen' wird der jeweilige Fund in einem neuen Tab geöffnet.
@@ -580,7 +579,7 @@ Anzeige der dem Befund zugewiesenen Funde. Sind dem Befund Funde zugewiesen, so 
 
 
 Zeichenblatt
-**********************************************
+====================================================
 
 
 Anzeige der dem Befund zugewiesenen Zeichenblätter. Sind dem Befund Zeichenblätter zugewiesen, so erscheinen diese mit ihrer Nummer. Durch Anwählen der hinter dem Text 'Zeichenblatt:' angezeigten Nummer werden die zugehörigen Zeichenblätter in einem neuen Tab angezeigt.
@@ -588,7 +587,7 @@ Anzeige der dem Befund zugewiesenen Zeichenblätter. Sind dem Befund Zeichenblä
 
 
 Fotos
-**********************************************
+====================================================
 
 
 Anzeige der dem Befund zugewiesenen Digitalfotos. Sind dem Befund Digitalfotos zugewiesen, so erscheinen diese mit ihrer Anzahl. Durch Anwählen der hinter dem Text 'Fotos:' angezeigten Nummer werden die zugehörigen Fotos in einem neuen Tab angezeigt.
@@ -596,7 +595,7 @@ Anzeige der dem Befund zugewiesenen Digitalfotos. Sind dem Befund Digitalfotos z
 
 
 Segment
-**********************************************
+====================================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -607,7 +606,7 @@ Bezeichnung/Nummer des Segments. Der Begriff Segment bezeichnet einen Teil des B
 
 
 Fundlage
-**********************************************
+====================================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -616,7 +615,7 @@ Freitextfeld zur Beschreibung der Lage der Funde in einem Befund. Für aufwändi
 
 
 Rechtswert
-**********************************************
+====================================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -625,7 +624,7 @@ Freitextfeld zur Angabe des Rechtswert der mittleren Höhe eines Befundes. Diese
 
 
 Hochwert
-**********************************************
+====================================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -634,7 +633,7 @@ Freitextfeld zur Angabe des Hochwert der mittleren Höhe eines Befundes. Dieses 
 
 
 Höhe
-**********************************************
+====================================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -643,7 +642,7 @@ Freitextfeld zur Angabe des Höhe über normal Null der mittleren Höhe eines Be
 
 
 Vorläufige Datierung
-**********************************************
+====================================================
 
 
 Anzeige der vorläufigen Datierung. Diese Anzeige wird aus den Datierungen der dem Befund zugehörigen Funde generiert. In der Befundübersicht werden die Informationen in einer eigenen Spalte angezeigt.

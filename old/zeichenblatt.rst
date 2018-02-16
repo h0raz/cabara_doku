@@ -1,10 +1,10 @@
-====================================
+****************
 Zeichenblatt
-====================================
+****************
 
 
 Zeichenblattnummer
-**********************************************
+====================================
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
 
@@ -13,7 +13,7 @@ Zeichenblattnummer bzw. Nummer des Zeichenblattes. Diese Nummer wird für jedes 
 
 
 Projekt
-**********************************************
+====================================
 .. note:: Diese Auswahl wird über das Projekt befüllt
 
 
@@ -22,7 +22,7 @@ Anzeige der internen Bezeichnung des aktuellen Projekts. In diesem Feld ist das 
 
 
 Format
-**********************************************
+====================================
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
@@ -32,7 +32,7 @@ Anzeige des Formats des Zeichenblattes. Die hier zur Auswahl stehenden Formate m
 
 
 Inhaltsangabe
-**********************************************
+====================================
 
 
 Anzeige der auf dem jeweiligen Zeichenblatt vorhandenen Motive. Nach den Vorgaben des BLfD muss auf jedem Zeichenblatt der Inhalt wiedergegeben werden. Hierbei scheint es ausreichend anzugeben, ob es sich um ein Planum und/oder Profil bzw. Plana und/oder Profile handelt. Sämtliche darüber hinausgehenden Angaben sind ebenfalls möglich.
@@ -40,7 +40,7 @@ Anzeige der auf dem jeweiligen Zeichenblatt vorhandenen Motive. Nach den Vorgabe
 .. warning:: TODO: Wollten wir das nicht als Dropdown machen?
 
 Maßstäbe
-**********************************************
+====================================
 .. note:: Diese Auswahl wird über die Verwaltung befüllt
 .. note:: Diese Information muss laut dem BLfD angegeben werden
 
@@ -50,7 +50,7 @@ Auswahlfeld zur Angabe des auf dem jeweiligen Zeichenblatt verwendeten Maßstabs
 
 
 Datum
-**********************************************
+====================================
 .. note:: Dieses Feld ist optional zu befüllen
 
 
@@ -59,7 +59,7 @@ Angabe des Zeichendatums. In diesem Freitextfeld können sämtliche Daten bzw. d
 
 
 Befundnummern
-**********************************************
+====================================
 
 
 Auswahlfeld zur Angabe der auf dem jeweiligen Zeichenblatt gezeichneten Befunde. Die hier zur Auswahl stehenden Befunde müssen zuvor im Befundbuch angelegt werden. Sämtliche Befunde, die auf dem jeweiligen Zeichenblatt vorhanden sind, sollten angegeben werden. Ist die Befundnummer Feld ausgewählt, kann sie über die Schaltfläche 'Hinzufügen' hinzugefügt werden.
@@ -68,7 +68,7 @@ Auswahlfeld zur Angabe der auf dem jeweiligen Zeichenblatt gezeichneten Befunde.
 .. warning:: TODO: Verknüfpung Zeichenblatt?
 
 Ausstehende Informationen
-**********************************************
+====================================
 
 
 Hinterlegung von noch ausstehenden/fehlenden Daten. Dieses Feld dient dazu festzuhalten, welche Daten/Informationen zum Abschluss des Zeichenblattes, noch fehlen. Beispiele hierfür wären z.B. 'Maßstab fehlt', 'Zeichenblattnummerierung unklar', etc. Da es sich um ein Freitextfeld handelt können auch Anweisungen für das weitere Vorgehen, z.B. 'Zeichnung muss noch koloriert werden' etc. hinterlegt werden. Wenn in dieser Feld etwas eingetragen ist, wird das Zeichenblatt in der Liste <span class="btn btn-danger">rot</span> hinterlegt. Es ist möglich, nach noch zu bearbeitenden Zeichenblättern, d.h. Zeichenblätter mit Eintragungen im Feld 'Ausstehende Informationen', zu filtern.
