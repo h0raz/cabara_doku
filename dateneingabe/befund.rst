@@ -5,6 +5,9 @@ Befund
 Projekt
 ===============================
 
+
+Bezeichnung des aktuellen Projekts. In diesem Feld ist das Projekt, dem der jeweilige Befund zugeordnet ist angegeben. Es handelt sich um ein reines Anzeigefeld, es können demnach keine Veränderungen daran vorgenommen werden.
+
 Befundnummer
 ===============================
 
